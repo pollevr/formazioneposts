@@ -1,0 +1,101 @@
+/*
+Theme Name: Allievi Pozzo
+Theme URI: http://wordpress.org/themes/twentythirteen
+Author: the WordPress team
+Author URI: http://wordpress.org/
+Description: The 2013 theme for WordPress takes us back to the blog, featuring a full range of post formats, each displayed beautifully in their own unique way. Design details abound, starting with a vibrant color scheme and matching header images, beautiful typography and icons, and a flexible layout that looks great on any device, big or small.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: twentythirteen
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/*
+ * CSS per plugin formazione - inizio
+ */
+
+/*reset*/
+
+.dc-ff-football-formation, .dc-ff-football-formation div{
+  font-family: helvetica,arial,sans-serif !important;
+  -webkit-box-sizing: border-box !important; /* <=iOS4, <= Android  2.3 */
+  -moz-box-sizing: border-box !important; /* Firefox 1+ */
+  box-sizing: border-box !important; /* Chrome, IE8+, Opera, Safari 5.1*/ 
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  /* this is useful to prevent div highlighting */
+  -webkit-user-select: none; /* Chrome/Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+  -khtml-user-select: none; /* webkit browsers */
+  -o-user-select: none;/* not yet implemented */
+  user-select: none;/* not yet implemented */ 
+  -webkit-touch-callout: none;
+}
+
+.dc-ff-football-formation{
+  background-color: transparent;
+  background-size: 500px 200px;
+  margin: 20px 0px !important;
+  width: 500px;
+  height: 200px;
+  background-position: 0px 0px;
+  background-repeat: no-repeat no-repeat;
+}
+
+/*reset*/
+.dc-ff-football-formation{
+  width: 500px;
+  height: 200px;
+  margin: 20px 0;
+  position: relative;
+}
+
+.dc-ff-player{
+  background: url('/wp-content/plugins/formazioneposts/images/player_bg_100_20.png') no-repeat 0 0 transparent; 
+  height: 10%;
+  position: absolute;
+  width: 20%;
+  background-size: 100%;
+}
+
+.dc-ff-player-number{
+  float: left;
+  width: 20%;
+  height: 100%;
+  max-height: 100%;
+  background: url('/wp-content/plugins/formazioneposts/images/player_bg_number.png') no-repeat 0 0 transparent;
+  background-size: 100%;
+  font-family: helvetica,arial,sans-serif;
+  overflow: hidden;
+  line-height: 20px;
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  text-shadow: none !important;
+}
+
+.dc-ff-player-name{
+  overflow: hidden;
+  line-height: 20px;
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+  font-family: helvetica,arial,sans-serif;
+  color: #04103f;
+  text-shadow: none !important;
+  height: 100%;
+  max-height: 100%;
+}
+
+/*
+ * CSS per plugin formazione - fine
+ */
