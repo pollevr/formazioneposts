@@ -12,7 +12,7 @@
 				  <th scope="row"><label for="fp_background_field"><b>Campo di sfondo:</b></label></th>
 				  <td>
 						<input type="radio" name="fp_background_field" id="fp_background_field1" value="1" <?php checked( 1 == get_option( 'fp_background_field' ) ); ?> />
-				    <?php echo '<img src="' . plugins_url( 'images/football_pitch_1.png' , __FILE__ ) . '" width="10%"> ';?>
+				    <?php echo '<img src="/wp-content/plugins/formazioneposts/images/football_pitch_1.png" width="10%"> ';?>
 				  </td>
 				</tr>
 				<tr valign="top">
@@ -47,7 +47,7 @@
 					<th scope="row"></th>
 				  <td>
 						<input type="radio" name="fp_background_field" id="fp_background_field11" value="11" <?php checked( 11 == get_option( 'fp_background_field' ) ); ?> />
-				    <?php echo '<img src="' . plugins_url( 'images/football_pitch_11.png' , __FILE__ ) . '" width="13%"> ';?>
+				    <?php echo '<img src="/wp-content/plugins/formazioneposts/images/football_pitch_11.png" width="10%"> ';?>
 				  </td>
 				</tr>
 				<tr valign="top">

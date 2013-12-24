@@ -30,3 +30,27 @@ function fp_register_options_group(){
 
 	register_setting('fp_options_group', 'fp_background_field');
 }
+
+function register_button( $buttons ) {
+	array_push( $buttons, "|", "formazioneposts" );
+	return $buttons;
+}
+
+function add_plugin( $plugin_array ) {
+	//$plugin_array['formazioneposts'] = get_template_directory_uri() . '/js/recentposts.js';
+	$plugin_array['formazioneposts'] = '/wp-content/plugins/formazioneposts/formazioneposts.js';
+	return $plugin_array;
+}
+
+function formazione_posts_button() {
+
+	if ( ! current_user_can('edit_posts') && ! current_user_can('edit_pages') ) {
+		return;
+	}
+
+	if ( get_user_option('rich_editing') == 'true' ) {
+		add_filter( 'mce_external_plugins', 'add_plugin' );
+		add_filter( 'mce_buttons', 'register_button' );
+	}
+
+}

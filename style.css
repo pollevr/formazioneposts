@@ -17,7 +17,10 @@ Use it to make something cool, have fun, and share what you've learned with othe
 /*
  * CSS per plugin formazione - inizio
  */
-
+@font-face {
+      font-family: "brushed";
+      src: url(http://dev.pozzo.it/wp-content/plugins/formazioneposts/fonts/BRUSHED.TTF) format("truetype");
+  }
 /*reset*/
 
 .dc-ff-football-formation, .dc-ff-football-formation div{
@@ -94,6 +97,16 @@ Use it to make something cool, have fun, and share what you've learned with othe
   text-shadow: none !important;
   height: 100%;
   max-height: 100%;
+}
+
+.background10{
+  background:none;
+  font-family: brushed;
+  font-size:16px;
+  color: white;
+}
+.dc-ff-football-formation, .dc-ff-football-formation div.background10{
+  font-family: brushed !important;
 }
 
 /*
