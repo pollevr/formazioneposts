@@ -17,10 +17,17 @@ Use it to make something cool, have fun, and share what you've learned with othe
 /*
  * CSS per plugin formazione - inizio
  */
+ /*
 @font-face {
       font-family: "brushed";
       src: url(http://dev.pozzo.it/wp-content/plugins/formazioneposts/fonts/BRUSHED.TTF) format("truetype");
   }
+*/  
+@font-face {
+      font-family: "brushed";
+      src: url(http://dev.pozzo.it/wp-content/plugins/formazioneposts/fonts/Eraser.ttf) format("truetype");
+  }
+
 /*reset*/
 
 .dc-ff-football-formation, .dc-ff-football-formation div{
